@@ -3,6 +3,7 @@ package com.kuraki.chapter08;
 import java.util.concurrent.CyclicBarrier;
 
 public class CyclicBarrierTest3 {
+
     static CyclicBarrier c = new CyclicBarrier(2);
 
     public static void main(String[] args) {
@@ -10,6 +11,7 @@ public class CyclicBarrierTest3 {
             try {
                 c.await();
             } catch (Exception e) {
+                e.printStackTrace();
             }
         });
         thread.start();
