@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="12968232-fc92-4fb1-8ffb-c7f26cb13310" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuraki/chapter08/ExchangerTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuraki/chapter08/SemaphoreTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuraki/chapter07/AtomicIntegerArrayTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuraki/chapter07/AtomicIntegerFieldUpdaterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuraki/chapter07/AtomicReferenceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kuraki/chapter08/CountDownLatchTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/kuraki/chapter08/CyclicBarrierTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kuraki/chapter08/CyclicBarrierTest3.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,43 +36,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kuraki/chapter08/CyclicBarrierTest3.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kuraki/chapter07/AtomicReferenceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            <state relative-caret-position="171">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kuraki/chapter08/SemaphoreTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kuraki/chapter07/AtomicIntegerFieldUpdaterTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="57">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kuraki/chapter08/ExchangerTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kuraki/chapter08/CountDownLatchTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="415">
-              <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/Exchanger.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="560" column="13" selection-start-line="560" selection-start-column="13" selection-end-line="560" selection-end-column="13" />
+            <state relative-caret-position="342">
+              <caret line="18" lean-forward="true" selection-start-line="4" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -116,6 +102,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/kuraki/chapter08/CyclicBarrierTest3.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kuraki/chapter08/SemaphoreTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kuraki/chapter08/ExchangerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kuraki/chapter07/AtomicIntegerArrayTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kuraki/chapter07/AtomicReferenceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kuraki/chapter07/AtomicIntegerFieldUpdaterTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kuraki/chapter08/CountDownLatchTest.java" />
       </list>
     </option>
   </component>
@@ -209,7 +199,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1564732345774" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565155324584" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="Settings.JavaScript" />
@@ -226,13 +216,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ExchangerTest">
-    <configuration name="BankWaterService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kuraki.chapter08.BankWaterService" />
+  <component name="RunManager" selected="Application.CountDownLatchTest">
+    <configuration name="AtomicIntegerArrayTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kuraki.chapter07.AtomicIntegerArrayTest" />
       <module name="concurrent-programming-art" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kuraki.chapter08.*" />
+          <option name="PATTERN" value="com.kuraki.chapter07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -240,12 +230,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CyclicBarrierTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kuraki.chapter08.CyclicBarrierTest2" />
+    <configuration name="AtomicIntegerFieldUpdaterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kuraki.chapter07.AtomicIntegerFieldUpdaterTest" />
       <module name="concurrent-programming-art" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.kuraki.chapter08.*" />
+          <option name="PATTERN" value="com.kuraki.chapter07.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -253,8 +243,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CyclicBarrierTest3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kuraki.chapter08.CyclicBarrierTest3" />
+    <configuration name="AtomicReferenceTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kuraki.chapter07.AtomicReferenceTest" />
+      <module name="concurrent-programming-art" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.kuraki.chapter07.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CountDownLatchTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.kuraki.chapter08.CountDownLatchTest" />
       <module name="concurrent-programming-art" />
       <extension name="coverage">
         <pattern>
@@ -279,26 +282,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SemaphoreTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.kuraki.chapter08.SemaphoreTest" />
-      <module name="concurrent-programming-art" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.kuraki.chapter08.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountDownLatchTest" />
+        <item itemvalue="Application.AtomicIntegerFieldUpdaterTest" />
+        <item itemvalue="Application.AtomicReferenceTest" />
+        <item itemvalue="Application.AtomicIntegerArrayTest" />
         <item itemvalue="Application.ExchangerTest" />
-        <item itemvalue="Application.SemaphoreTest" />
-        <item itemvalue="Application.CyclicBarrierTest3" />
-        <item itemvalue="Application.BankWaterService" />
-        <item itemvalue="Application.CyclicBarrierTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -327,7 +317,9 @@
       <workItem from="1564362140406" duration="6243000" />
       <workItem from="1564448379591" duration="4438000" />
       <workItem from="1564647812029" duration="1556000" />
-      <workItem from="1564707999981" duration="3641000" />
+      <workItem from="1564707999981" duration="3680000" />
+      <workItem from="1565143799661" duration="14000" />
+      <workItem from="1565144816888" duration="2495000" />
     </task>
     <servers />
   </component>
@@ -337,13 +329,13 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45727000" />
+    <option name="totallyTimeSpent" value="48275000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15778251" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1609808" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -357,7 +349,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32739422" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32703003" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32962137" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32962137" />
@@ -696,18 +688,46 @@
     </entry>
     <entry file="jar://D:/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/Exchanger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
+        <state relative-caret-position="9918">
           <caret line="560" column="13" selection-start-line="560" selection-start-column="13" selection-end-line="560" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kuraki/chapter08/ExchangerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="32" column="30" selection-start-line="32" selection-start-column="30" selection-end-line="32" selection-end-column="30" />
+        <state relative-caret-position="627">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kuraki/chapter07/AtomicIntegerArrayTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" lean-forward="true" selection-start-line="4" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kuraki/chapter07/AtomicReferenceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kuraki/chapter07/AtomicIntegerFieldUpdaterTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kuraki/chapter08/CountDownLatchTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="18" lean-forward="true" selection-start-line="4" selection-end-line="18" />
         </state>
       </provider>
     </entry>
